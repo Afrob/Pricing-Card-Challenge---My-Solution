@@ -1,0 +1,106 @@
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+footer{
+    position: absolute;
+    top: 95%;
+    left:25%;
+    width: 50%;
+    text-align: center;
+}
+
+.upper-box, .lower-left-box, .lower-right-box{
+    margin:auto;
+    height: 300px;
+    padding: 40px;
+    box-sizing: border-box; 
+}
+
+.upper-box, .bottom-box{
+    box-shadow: 0px 20px 20px hsl(218, 22%, 67%);
+}
+
+.upper-box{
+    display: block;
+    margin-top: 150px;
+    width: 900px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.upper-box > h1{
+    color: hsl(179, 62%, 43%);
+}
+
+.upper-box > h2{
+    color: hsl(71, 73%, 54%);
+}
+
+.upper-box > p{
+    color: hsl(218, 22%, 67%);
+}
+
+.bottom-box{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width:900px;
+    margin: auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.lower-left-box, .lower-right-box{
+    vertical-align: top;
+    width: 450px;
+    margin: 0px auto;
+    color: white;
+    display: inline-block;
+}
+
+.lower-left-box{
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 25px;
+}
+
+.price{
+    font-size: 2em;
+    margin-right:10px;
+}
+
+.per_month{
+    color: hsl(180, 29%, 64%);
+    display: inline; 
+}
+
+.lower-left-box > button{
+    background-color: hsl(71, 73%, 54%);
+    border: 0px;
+    width: 350px;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    margin: auto
+}
+
+.lower-left-box > button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.lower-right-box{
+    background-color: hsl(179, 34%, 61%);
+    border-bottom-right-radius: 25px;
+}
+
+.lower-right-box > p{
+    margin: 4px;
+    color: hsl(173, 11%, 84%);
+}
